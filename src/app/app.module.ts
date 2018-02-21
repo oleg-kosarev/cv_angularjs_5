@@ -97,7 +97,9 @@ const appRoutes: Routes = [
     BlogDetalisComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({
+        appId: 'OlegKosareApp'
+    }),
     AlertModule.forRoot(),
     ModalModule.forRoot(),
     TooltipModule.forRoot(),
