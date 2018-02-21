@@ -1,0 +1,110 @@
+/*
+ * #####################################################
+ * ################### THEME 4 START ###################
+ * #####################################################
+ */
+
+ body.theme_4 .color,
+ body.theme_4 .content > div#about .box .title .text,
+ body.theme_4 .content > div#about .box .personal_details .title .icon,
+ body.theme_4 .content > div .box_title .text,
+ body.theme_4 a{
+     color: #3D5530;
+ }
+ 
+ body.theme_4 a.btn{
+     color: #ffffff;
+ }
+ 
+ body.theme_4 .main_menu ul li a.home{
+     background: #3D5530;
+ }
+ 
+ body.theme_4 .main_menu ul li a.home{
+     color: #111111;
+ }
+ 
+ body.theme_4 .main_menu ul li a.home:hover,
+ body.theme_4 .main_menu ul li a.home.active{
+     color: #000000;
+ }
+ 
+ body.theme_4 .main_menu ul li a.about{
+     background: #4D5C2E;
+ }
+ 
+ body.theme_4 .main_menu ul li a.about,
+ body.theme_4 .main_menu ul li a.resume{
+     color:#222222;
+ }
+ 
+ body.theme_4 .main_menu ul li a.resume{
+     background: #6E701B;
+ }
+ 
+ body.theme_4 .main_menu ul li a.portfolio{
+     background: #8F9137;
+ }
+ 
+ body.theme_4 .main_menu ul li a.blog{
+     background: #CCBC39;
+ }
+ 
+ body.theme_4 .main_menu ul li a.contact{
+     background: #F7CD3D;
+ }
+ 
+ body.theme_4 .content > div .title:after{
+     background: #3D5530;
+ }
+ 
+ body.theme_4 .content > div#about .box .title .icon,
+ body.theme_4 .content > div .box_title .icon,
+ body.theme_4 .content > div#about .box.awards .award .date,
+ body.theme_4 .content > div#portfolio #portfolio_grid .mix a > div .inner i:hover,
+ body.theme_4 .content > div#blog .sidebar .categories .item:hover i,
+ body.theme_4 .content > div#contact .info > div i,
+ body.theme_4 .content > div#resume .skills .section .bar_inner,
+ body.theme_4 .content > div#about .box.my_services .accordion .item .item_title .item_btn,
+ body.theme_4 .content > div#portfolio #portfolio_grid .mix a > div .inner i,
+ body.theme_4 .btn{
+     background: #3D5530;
+ }
+ 
+ body.theme_4 .btn:hover{
+     background: #408000;
+ }
+ 
+ body.theme_4 .content > div#about .box.my_services .accordion .item .item_title .item_btn{
+     opacity: 0.8;
+     color: #ffffff;
+ }
+ 
+ body.theme_4 .content > div#about .box.my_services .accordion .item .item_title .item_btn:hover,
+ body.theme_4 .content > div#about .box.my_services .accordion .item .item_title .item_btn.active{
+     opacity: 1;
+ }
+ 
+ body.theme_4 .content > div#about .awards .award{
+     border-top:1px solid #3D5530;
+ }
+ 
+ body.theme_4 .content > div#blog .sidebar .tabs .tabs_menu a.active{
+     border-top: 2px solid #3D5530;
+ }
+ 
+ body.theme_4 input[type="text"]:focus,
+ body.theme_4 input[type="email"]:focus,
+ body.theme_4 textarea:focus{
+     border: 1px solid #3D5530;
+ }
+ 
+ body.theme_4 .accordion .item .item_title .item_btn .arrow i{
+     color: #dedede;
+ }
+ 
+ /*
+  * #####################################################
+  * #################### THEME 4 END ####################
+  * #####################################################
+  */

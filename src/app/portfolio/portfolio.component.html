@@ -1,0 +1,38 @@
+<div id="portfolio" class="col-md-12  pt-page-current" style="position: relative; height: 552px !important;" [perfectScrollbar]="">
+  <h1 class="page_title title color">
+    <span class="text">{{'PAGES.PORTFOLIO.TITLE' | translate}}</span>
+  </h1>
+
+  <div class="row">
+    <!-- Description -->
+    <div class="page_info col-md-12">{{'PAGES.PORTFOLIO.DESCRIPTION' | translate}}</div>
+    <!-- /Description -->
+
+    <!-- Portfolio Items Type Selector -->
+    <ul class="portfolio_selector col-md-12">
+      <li *ngFor="let itemCat of category" [ngClass]="(itemCat.active==true)?'active':''" class="filter btn">
+        {{"PAGES.PORTFOLIO.CATEGORIS." + itemCat.title | translate}}</li>
+    </ul>
+    <!-- /Portfolio Items Type Selector -->
+    
+    <!-- Portfolio Items -->
+    <div class="portfolio_grid 4cols col-md-12">
+      <ng-masonry-grid [masonryOptions]="{ transitionDuration: '0.8s', gutter: 0, fitWidth: true, columnWidth: 220 }" [useAnimation]="true"
+		[useImagesLoaded]="true" [scrollAnimationOptions]="{ animationEffect: 'effect-1', minDuration : 0.4, maxDuration : 0.7 }">
+		
+        <ng-masonry-grid-item id="{{'masonry-item-'+i}}" class="mix" *ngFor="let item of masonryItems; let i = index;">
+          <a href="javascript:;" [routerLink]="['/portfolio', item.alias]" class="quickview_portfolio_item">
+            <img [src]="item.images.thumb" alt="{{item.title}}" />
+          </a>
+		</ng-masonry-grid-item>
+		
+      </ng-masonry-grid>
+
+
+    </div>
+    <!-- /Portfolio Items -->
+  </div>
+
+  <div id="portfolio_popup" class="zoom-anim-dialog mfp-hide"></div>
+  <div class="clear"></div>
+</div>

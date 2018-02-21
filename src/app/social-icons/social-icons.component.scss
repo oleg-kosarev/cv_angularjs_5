@@ -1,0 +1,75 @@
+/*
+===============================================
+			3. Social Icons
+===============================================
+*/
+/*
+.social_icons{
+	opacity: 0;
+}
+*/
+.social_icons ul{
+	display: block;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin:	0;
+}
+
+.social_icons ul li{
+	display: block;
+}
+
+.social_icons ul li a{
+	text-align: center;
+	display: block;
+	opacity: 0.55;
+	font-size: 25px;
+	background: #fbfbfb;
+	overflow: hidden;
+	color:#ffffff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social_icons ul li a.twitter{
+	background: #00baff;
+}
+
+.social_icons ul li a.facebook{
+	background: #3b5999;
+}
+
+.social_icons ul li a.plus{
+	background: #e7cf48;
+}
+
+.social_icons ul li a:hover{
+	opacity: 1;
+}
+
+.social_icons ul.more_social_icons{
+	display: none;
+}
+
+.social_icons ul.more_social_icons.visible{
+	display: block;
+}
+
+.social_icons ul li a.google-plus{
+	background: #D94835;
+}
+
+.social_icons ul li a.linkedin{
+	background: #007BB6;
+}
+
+.social_icons ul li a.github{
+	background: #7197B0;
+}
+
+.social_icons ul li a.youtube{
+	background: #C8302D;
+}

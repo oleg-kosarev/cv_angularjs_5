@@ -1,0 +1,124 @@
+<div id="resume" class="col-md-12 pt-page-current ps"
+	style="position: relative; max-height: 552px;"
+	[perfectScrollbar]="">
+	<h1 class="title color">
+		<span class="text">{{"PAGES.RESUME.TITLE" | translate }}</span>
+	</h1>
+
+	<!-- Left Side -->
+	<div class="col-md-8 alpha left_side">
+
+		<!-- Education -->
+		<div class="education lists">
+			<div class="box_title title">
+				<div class="icon">
+					<i class="fa fa-clock-o"></i>
+				</div>
+				<div class="text">{{"PAGES.RESUME.EDUCATION.TITLE" | translate
+					}}</div>
+				<div class="clear"></div>
+			</div>
+			<div class="items">
+				<div class="item" *ngFor="let item of education">
+					<div class="title">{{"PAGES.RESUME.EDUCATION." + item.title|
+						translate}}</div>
+					<div class="subtitle">
+						<span class="date_text">{{"PAGES.RESUME.EDUCATION." +
+							item.date_text| translate}}</span>&bull; <span class="name">{{"PAGES.RESUME.EDUCATION."
+							+ item.name| translate}}</span>
+					</div>
+					<div class="text">
+						<span
+							[innerHTML]="'PAGES.RESUME.EDUCATION.' + item.text | translate"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Education -->
+
+		<!-- Employment -->
+		<div class="employment lists">
+			<div class="box_title title">
+				<div class="icon">
+					<i class="fa fa-bolt"></i>
+				</div>
+				<div class="text">{{"PAGES.RESUME.EMPLOYMENT.TITLE" |
+					translate}}</div>
+				<div class="clear"></div>
+			</div>
+			<div class="items">
+				<div class="item" *ngFor="let item of employment">
+					<div class="title">{{"PAGES.RESUME.EMPLOYMENT." + item.title|
+						translate}}</div>
+					<div class="subtitle">
+						<span class="date_text">{{"PAGES.RESUME.EMPLOYMENT." +
+							item.date_text| translate}}</span>&bull; <span class="name">{{"PAGES.RESUME.EMPLOYMENT."
+							+ item.name| translate}}</span>
+					</div>
+					<div class="text">
+						<span
+							[innerHTML]="'PAGES.RESUME.EMPLOYMENT.' + item.text | translate"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Employment -->
+
+	</div>
+	<!-- /Left Side -->
+
+	<!-- Right Side -->
+	<div class="col-md-4 omega right_side">
+
+		<!-- Skills -->
+		<div class="skills">
+			<div class="box_title title">
+				<div class="icon">
+					<i class="fa fa-bolt"></i>
+				</div>
+				<div class="text">{{"PAGES.RESUME.SKILLS.TITLE" | translate }}</div>
+				<div class="clear"></div>
+			</div>
+			<div class="section" *ngFor="let SKILL_OBJ of skills">
+				<div class="title">
+					<i class="fa {{SKILL_OBJ.icon}}"></i>{{"PAGES.RESUME.SKILLS." +
+					SKILL_OBJ.name + ".TITLE"| translate}}
+				</div>
+				<div class="items">
+					<div class="item" *ngFor="let SKILL of SKILL_OBJ.items">
+						<div class="name">{{"PAGES.RESUME.SKILLS." + SKILL_OBJ.name
+							+ "." + SKILL.name| translate}}</div>
+						<div class="bar_outer">
+							<div class="bar_inner"
+								[attr.data-width]="SKILL.value">
+								<div class="text">{{SKILL.value}}%</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Skills -->
+
+		<!-- Download CV -->
+		<div class="resume_download lists">
+			<div class="box_title title">
+				<div class="icon">
+					<i class="fa fa-file-text"></i>
+				</div>
+				<div class="text">{{"PAGES.RESUME.TITLE" | translate }}</div>
+				<div class="clear"></div>
+			</div>
+			<a href="javascript:;" class="btn disable"> <i
+				class="fa fa-download"></i> <span>{{
+					'PAGES.HOME.BTN.DOWNLOAD_RESUME' | translate }}</span>
+			</a>
+			<div class="clear"></div>
+		</div>
+		<!-- /Download CV -->
+
+	</div>
+	<!-- /Right Side -->
+
+	<div class="clear"></div>
+</div>

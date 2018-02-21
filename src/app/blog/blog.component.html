@@ -1,0 +1,148 @@
+<div id="blog" class="col-md-12 pt-page-current"
+	style="position: relative; max-height: 552px;" [perfectScrollbar]="">
+	<h1 class="title color">
+		<span class="text">{{"PAGES.BLOG.TITLE" | translate}}</span>
+	</h1>
+
+	<!-- Blog Posts -->
+	<div class="blog_posts left_side col-md-8 alpha">
+		<div class="back_to_blog btn">{{"PAGES.BLOG.BACK_TO_BLOCK" |
+			translate}}</div>
+
+		<!-- Blog Post -->
+		<div class="post" *ngIf="posts==0" data-animation="flipInX">
+			<div class="post_data">
+				<div class="box_title title">
+					<div class="text">
+						<a href="#" class="read_more_btn">{{"ERROR.TITLE" |
+							translate}}</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="preview_body body">{{"PAGES.BLOG.EMPTY" |
+					translate}}</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- /Blog Post -->
+
+		<!-- Blog Post -->
+		<div class="post" data-animation="flipInX" *ngFor="let post of posts">
+			<div class="post_data">
+				<div class="box_title title">
+					<div class="text">
+						<a href="#" [routerLink]="['/blog', post.slug]" class="read_more_btn">{{post.title}}</a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="preview_body body">post.body</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<!-- /Blog Post -->
+
+		<div class="load_more_posts btn">{{"PAGES.BLOG.LOAD_MORE" |
+			translate}}</div>
+	</div>
+	<!-- Blog Posts -->
+
+	<!-- Sidebar -->
+	<div class="sidebar right_side col-md-4 omega">
+
+		<!-- Search Bar -->
+		<div class="search_bar">
+			<input type="text" name="query" value=""
+				placeholder="{{'PAGES.BLOG.SEARCH' | translate}}"
+				class="search_input" /> <i class="fa fa-search"></i>
+		</div>
+		<!-- /Search Bar -->
+
+		<!-- Categories -->
+		<div class="categories">
+			<div class="title color">
+				<span class="text">{{"PAGES.BLOG.CATEGORIS.TITLE" |
+					translate}}</span>
+			</div>
+			<div class="categories">
+				<div class="item">2000: network error</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- /Categories -->
+
+		<!-- Tabs -->
+		<div class="tabs">
+			<div class="title color">
+				<span class="text">Tabs</span>
+			</div>
+			<div class="tabs">
+				<div class="tabs_menu">
+					<a href="#popular" class="active">Popular</a> <a href="#recent">Recent</a>
+					<a href="#comments">Comments</a>
+					<div class="clear"></div>
+				</div>
+				<div class="tabs_body">
+					<div id="popular" class="items active">
+						<div class="item">
+							<span class="body"> 2000: network error </span>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="recent" class="items">
+						<div class="item">
+							<span class="body"> 2000: network error </span>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="comments" class="items">
+						<div class="item">
+							<span class="body"> 2000: network error </span>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<!-- /Tabs -->
+
+		<!-- Archive -->
+		<div class="archive">
+			<div class="title color">
+				<span class="text">Archive</span>
+			</div>
+			<div class="categories">
+				<div class="item">
+					<i class="fa fa-circle"></i> <span class="text"> 2000:
+						network error </span>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- /Archive -->
+
+		<!-- About -->
+		<div class="about">
+			<div class="title color">
+				<span class="text">{{"PAGES.BLOG.ABOUT_BLOG_TITLE" |
+					translate}}</span>
+			</div>
+			<div class="text">{{"PAGES.BLOG.ABOUT_BLOG_DESK" | translate}}
+			</div>
+		</div>
+		<!-- /About -->
+
+		<!-- Tags -->
+		<div class="tags">
+			<div class="title color">
+				<span class="text">{{"PAGES.BLOG.TAGS.TITLE" | translate}}</span>
+			</div>
+			2000: network error
+			<div class="clear"></div>
+		</div>
+		<!-- /Tags -->
+	</div>
+	<!-- /Sidebar -->
+	<div class="clear"></div>
+
+</div>

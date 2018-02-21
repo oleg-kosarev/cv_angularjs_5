@@ -1,0 +1,94 @@
+/*
+ * #####################################################
+ * ################### THEME 1 START ###################
+ * #####################################################
+ */
+
+ body.cv_oleg_kosarev .color,
+ body.cv_oleg_kosarev .content  .box .title .text,
+ body.cv_oleg_kosarev .content  .box .personal_details .title .icon,
+ body.cv_oleg_kosarev .content  .box_title .text,
+ body.cv_oleg_kosarev a{
+     color: #008ec3;
+ }
+ 
+ body.cv_oleg_kosarev .btn{
+     color: #ffffff;
+ }
+ 
+ body.cv_oleg_kosarev .main_menu ul li a.home{
+     background: #3C7DC4;
+ }
+ 
+ body.cv_oleg_kosarev .main_menu ul li a.about{
+     background: #3CC4C4;
+ }
+ 
+ body.cv_oleg_kosarev .main_menu ul li a.resume {
+     background: #5A8F29;
+ }
+ 
+ body.cv_oleg_kosarev .main_menu ul li a.portfolio {
+     background: #E86850;
+ }
+ 
+ body.cv_oleg_kosarev .main_menu ul li a.blog {
+     background: #FF8F00;
+ }
+ 
+ body.cv_oleg_kosarev .main_menu ul li a.contact{
+     background: #FFDE00;
+ }
+ 
+ body.cv_oleg_kosarev .content .title .text,
+ body.cv_oleg_kosarev .box .title .text,
+ body.cv_oleg_kosarev .personal_details .title .icon{
+     border-bottom: 1px solid #008ec3;
+ }
+ 
+ body.cv_oleg_kosarev .content  .portfolio_grid .mix a  .inner i{
+     background: #006AB1;
+ }
+ 
+ body.cv_oleg_kosarev .content  .box .title .icon,
+ body.cv_oleg_kosarev .content .box_title .icon,
+ body.cv_oleg_kosarev .content  .box.awards .award .date,
+ body.cv_oleg_kosarev .content  .portfolio_grid .mix a  .inner i:hover,
+ body.cv_oleg_kosarev .sidebar .categories .item:hover i,
+ body.cv_oleg_kosarev .contact_info  i,
+ body.cv_oleg_kosarev .content .skills .section .bar_inner,
+ body.cv_oleg_kosarev .content  .box.my_services .accordion .item .item_title .item_btn,
+ body.cv_oleg_kosarev .content  .box.my_services .accordion ngb-accordion .card-header,
+ body.cv_oleg_kosarev .btn{
+     background: #008ec3;
+ }
+ 
+ body.cv_oleg_kosarev .btn:hover{
+     background: #00A7E6;
+ }
+ 
+ body.cv_oleg_kosarev .content  .box.my_services .accordion .item .item_title .item_btn,
+ body.cv_oleg_kosarev .content  .box.my_services .accordion ngb-accordion .card-header,
+ {
+     opacity: 0.8;
+     color: #ffffff;
+ }
+ 
+ body.cv_oleg_kosarev .content  .box.my_services .accordion .item .item_title .item_btn:hover,
+ body.cv_oleg_kosarev .content  .box.my_services .accordion .item .item_title .item_btn.active{
+     opacity: 1;
+ }
+ 
+ body.cv_oleg_kosarev .content  .awards .award{
+     border-top:1px solid #008ec3;
+ }
+ 
+ body.cv_oleg_kosarev .sidebar .tabs .tabs_menu a.active{
+     border-top: 2px solid #008ec3;
+ }
+ 
+ body.cv_oleg_kosarev input[type="text"]:focus,
+ body.cv_oleg_kosarev input[type="email"]:focus,
+ body.cv_oleg_kosarev textarea:focus{
+     border: 1px solid #008ec3;
+ }

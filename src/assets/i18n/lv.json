@@ -1,0 +1,293 @@
+{
+	"GENERAL": {
+		"NAME": "Oļegs",
+		"SURNAME": "Kosarevs",
+		"FOOTER": {
+			"COPYRIGHT": "Visas tiesības aizsargātas.",
+			"ANGULARJS_VERSION": "Versija AngularJS",
+			"APP_VERSION": "Produkta versija",
+			"BASED": "pamatojoties uz"
+		}
+	},
+	"PAGES": {
+		"HOME": {
+			"BTN": {
+				"LOOK_RESUME": "Apskatiet manu CV",
+				"DOWNLOAD_RESUME": "Lejupielādēt manu CV"
+			},
+			"SLIDER": {
+				"REALIZATION": "Jūsu ideja ir mana realizācija",
+				"TEXT0": "Dizainparaugu pielāgošana dažādām CMS",
+				"TEXT1": "Pieteikumu izstrāde AngularJS kopā ar Node.js",
+				"TEXT2": "Vecākais PHP MySQL programmētājs vietnē w-services.eu",
+				"TEXT3": "HTML5 \\ CSS3 vietņu izkārtojums"
+			}
+		},
+		"ABOUT": {
+			"TITLE": "Vairāk par mani",
+			"SUB_HEADER": "Par mani",
+			"DESCRIPTION": "Mans vārds ir <strong> Oļegs Kosarev </ strong> Es <strong> Web programmētājs un sistēmas administrators </ strong> Es esmu <strong> Rīga, Latvija </ strong>.",
+			"KEYWORDS": "",
+			"WHO_I_AM": {
+				"TITLE": "Kas es esmu",
+				"PERSONAL_DETALIS": {
+					"TITLE_USER": "Vārds",
+					"VALUE_USER": "Oļegs Anatolevich Kosarevs",
+					"TITLE_CALENDAR": "Dzimusi",
+					"VALUE_CALENDAR": "4 aprīlis 1987",
+					"TITLE_MAP": "Pilsēta",
+					"VALUE_MAP": "Latvija, Rīga",
+					"TITLE_MOBILE": "Telefons",
+					"VALUE_MOBILE": "+371-259-426-93",
+					"DESC_MOBILE": "piezvani man",
+					"TITLE_ENVELOPE": "E-pasts",
+					"VALUE_ENVELOPE": "oleg_kosarev@w-services.eu",
+					"DESC_ENVELOPE": "Rakstiet man",
+					"TITLE_LINK": "Web сайт",
+					"VALUE_LINK": "w-services.eu",
+					"DESC_LINK": "w-services.eu"
+				}
+			},
+			"WHAT_I_DO": {
+				"TITLE": "KO ES DARU",
+				"TEXT": "Disciplīna, komunikatīva, mērķtiecīga, augsta mācīšanās spēja, bez sliktiem ieradumiem. Lieliska vēlme attīstīties programmēšanas jomā (mobilo platformu plānošana)."
+			},
+			"SERVICES": {
+				"ACORDION": {
+					"TITLE": "MANI PAKALPOJUMI",
+					"TITLE0": "Tīmekļa vietnes izkārtojums",
+					"TEXT0": "Ligzdošana, tas ir, kad jums nepieciešams gatavs attēls (visbiežāk tas ir Photoshop formāta PSD), jums ir nepieciešams izveidot vietni. Lielākajā daļā gadījumu jums ir nepieciešams ne tikai atvērt hrml lapu, bet arī vilkt (pielāgot) dažiem populāriem CMS",
+					"TITLE1": "Web Development",
+					"TEXT1": "Es izveidoju ātras un funkcionālas tīmekļa vietnes. Man nekad netiks apturētas grūtības un novatoriski risinājumi. Man nav vārda \"neiespējami\" vai \"grūti\".я",
+					"TITLE2": "Administrators serveri",
+					"TEXT2": "TEXT3 IN LANG FILES"
+				}
+			},
+			"TOOLS_I_USE": {
+				"TITLE": "Es zinu tehnoloģijas",
+				"TTITLE0": "Photoshop",
+				"TTITLE1": "jQuery",
+				"TTITLE2": "Joomla",
+				"TTITLE3": "AngularJS",
+				"TTITLE4": "Node.js",
+				"TTITLE5": "PHP",
+				"TTITLE6": "MySQL"
+			},
+			"MY_AWARDS": {
+				"TITLE": "MANAS BALVAS",
+				"DATE0": "2011",
+				"TITLE0": "1. balva &bull; \"Lielākais sistēmas administrators-2011\" konkurss",
+				"BODY0": "Konkursu rīko kompānija \"Aideko\" sadarbībā ar žurnālu \"Sistēmas administrators\", žurnālu Linux Format, citātu bash.org.ru, portālu Linux.Org.Ru, SkyDNS pakalpojumu un Pinguem.ru vietni. Mūsu konkursā dalībniekiem būs jāuzrāda ne tikai profesionālās prasmes un zināšanas, bet arī atjautība, atjautība un spēja atrisināt loģiskas problēmas.",
+				"DATE1": "2010",
+				"TITLE1": "2. balva &bull; \"Lielākais sistēmas administrators-2010\" konkurss",
+				"BODY1": "Kompānija \"Aideko\", programmatūras izstrādātājs sistēmas administratoriem sadarbībā ar žurnālu Hacker, citetnik Runet bash.org.ru, digitālais portāls iXBT un sabiedrība Habrahabr veic All-Krievu konkursu par sistēmas administratora 2010. nosaukumu. Mēs centāmies ļoti izdarīt visus jautājumus kā daudzpusīgus un interesantus , ne tikai paplašinot horizontu, bet arī lietderīgi no praktiskā viedokļa.",
+				"DATE2": "2009",
+				"TITLE2": "3. balva &bull; \"Lielākais sistēmas administrators-2009\" konkurss",
+				"BODY2": "Sertifikāts elektroniskā formā nav pieejams. Krievu sysadmin - kas tas ir?"
+			},
+			"TESTIMONIALS": {
+				"TITLE": "IETEIKUMI",
+				"TEXT0": "Viņa darba laikā viņš izrādījās ne tikai kā disciplinēts un precīzs darbinieks, bet arī kā iniciatīva un spēja uzņemties atbildību par lēmumu pieņemšanu sarežģītos jautājumos, kas ir viņa kompetencē.",
+				"CLIENT0": "OOO \"ESIU\"",
+				"TEXT1": "Cieta darba stadija, ir augsta darba spēja, sarežģītos brīžos atbalsta visas uzņēmuma darbu, tai skaitā pēc stundām.",
+				"CLIENT1": "SIA \"web-academy\"",
+				"TEXT2": "Pastāvīgi uzrauga pašreizējās izmaiņas reglamentējošajā regulējumā, kā arī cenšas uzlabot viņu profesionālo kvalifikāciju.",
+				"CLIENT2": "SIA \"SSE\""
+			}
+		},
+		"RESUME": {
+			"TITLE": "CV",
+			"DOWNLOAD_MY_CV": "Скачать моё резюме",
+			"EDUCATION": {
+				"TITLE": "IZGLĪTĪBA",
+				"TITLE0": "Rīgas 96. vidusskola (9 klases)",
+				"DATE_TEXT0": "1996-2006",
+				"NAME0": "Средная школа",
+				"TEXT0": "Viņš absolvējis vidusskolu.",
+				"TITLE1": "SIA \"Profsistems\"",
+				"DATE_TEXT1": "2007-2008",
+				"NAME1": "Datoru remonts",
+				"TEXT1": "Tika apsvērta vispārējā svedinja par datora modernizācijas remontu, kā arī par Windows instalēšanu un pielāgošanu. Beidzis sertifikātu.",
+				"TITLE2": "\"INTUIT\"",
+				"DATE_TEXT2": "2001-2010",
+				"NAME2": "Установка веб-приложений на Win. Server 2008",
+				"TEXT2": "Internet-Universitāte Informācijas tehnoloģijas (www.INTUIT.ru) <br> <br> Interneta informācijas pakalpojumu instalēšana un konfigurēšana 7.0 Web serveris un tīmekļa platformas komponenti (ASP.NET, PHP, SQL Server, MySQL)."
+			},
+			"EMPLOYMENT": {
+				"TITLE": "DARBA PIEREDZE",
+				"TITLE0": "Sysadmin., Vecākais PHP MySQL programmētājs",
+				"DATE_TEXT0": "2012 - по настоящее время",
+				"NAME0": "SIA \"web-academy\"",
+				"TEXT0": "Vietnes izveide un administrēšana., Programmētājs, Sistēmas administrators",
+				"TITLE1": "Web-admin, Web izstrādātājs",
+				"DATE_TEXT1": "2013 - 2014",
+				"NAME1": "OOO \"ESIU\"",
+				"TEXT1": "Vietnes izveide un administrēšana. Dizainparaugu pielāgošana dažādām CMS.",
+				"TITLE2": "Web-admin, Web izstrādātājs",
+				"DATE_TEXT2": "2012 - 2013",
+				"NAME2": "SIA \"Prior\"",
+				"TEXT2": "Vietnes izveide un administrēšana. CMS Made Simple projektēšana.",
+				"TITLE3": "Sysadmin., Web-admin., Web izstrādātājs",
+				"DATE_TEXT3": "2009 - 2012",
+				"NAME3": "NRJ Reklama",
+				"TEXT3": "<p>Ремонт модернизация компьюторов в офисе</p><p>Создание и администрирование сайта.</p><p>Установка и обслуживание серворов на базе</p><ol><li>Windows XP (Windows 2003 начальние знание)</li><li>Linux(ubuntu server edition)</li><li>FreeBSD</li></ol>",
+				"TITLE4": "Datortehniķis",
+				"DATE_TEXT4": "2007 - 2008",
+				"NAME4": "Balt-Intek",
+				"TEXT4": "<p> Datoru remonts birojā un to pilna servisa. </ p> <p> Printeru, faksu, kopētāju remonts. </ p> <p> Kārtridžu uzpildīšana. </ p>",
+				"TITLE5": "Datortehniķis",
+				"DATE_TEXT5": "2006 - 2007",
+				"NAME5": "SIA Livas",
+				"TEXT5": "<p> Datoru modernizācija birojā </ p> <p> Atstājot klientu un atjaunojot datora modernizāciju vietnē. </ p> <p> Vietnes izveide un administrēšana. </ p>",
+				"TITLE01": "Tech. Direktors, programmētājs",
+				"DATE_TEXT01": "2016.12 - 2017.07",
+				"NAME01": "SIA \"DATAMARKET\"",
+				"TEXT01": "Vietnes izveide un administrēšana. Analogas izveide no programmas remonline.ru. Programma tika izveidota, pamatojoties uz angularJS."
+			},
+			"SKILLS": {
+				"TITLE": "PRASMES",
+				"GraphicDesign": {
+					"TITLE": "Darbs ar grafiku",
+					"NAME0": "Photoshop",
+					"NAME1": "Illustrator",
+					"NAME2": "Corel Draw"
+				},
+				"Programming": {
+					"TITLE": "Programmēšana",
+					"NAME0": "HTML & CSS",
+					"NAME1": "PHP",
+					"NAME2": "Javascript",
+					"NAME3": "jQuery",
+					"NAME4": "Bash",
+					"NAME5": "C#"
+				},
+				"CMS_FRAMEWORK": {
+					"TITLE": "CMS un ietvari",
+					"NAME0": "Joomla",
+					"NAME1": "AngularJS",
+					"NAME2": "Node.js",
+					"NAME3": "Bootstrap",
+					"NAME4": "DLE",
+					"NAME5": "Bitrix",
+					"NAME6": "CMS Made Simple"
+				},
+				"SITE_LAYOUT": {
+					"TITLE": "Vietnes izkārtojums",
+					"NAME0": "Div vietnes izkārtojums",
+					"NAME1": "Tabulveida izkārtojums"
+				}
+			}
+		},
+		"BLOG": {
+			"TITLE": "Blogs",
+			"BACK_TO_BLOCK": "Вернутся в Блог",
+			"READ_MORE": "Lasīt vairāk...",
+			"LOAD_MORE": "Ielādējiet vairāk ierakstu",
+			"ABOUT_AUTHOR_TITLE": "Об авторе",
+			"ABOUT_AUTHOR_DESK": "О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе:",
+			"ABOUT_BLOG_TITLE": "Par blogu",
+			"ABOUT_BLOG_DESK": "Šajā blogā es rakstu tikai personīgo pieredzi. Šajā blogā, jums nebūs redzēt pārrakstīšanu rakstu zināmo blogā rakstītājiem, SEO, vai izstrādājumiem, kas guva ķekars viedokli. Tikai mans darbs un manas grūtības un pieredze. Tātad, teiksim, programmētāja dzīve, kā tas ir.",
+			"SEARCH": "Meklēt",
+			"NOT_FOUND_ITEMS": "<p> Mēs neatradām nevienu dokumentu ar iekļautu vaicājumu - <br /> <em>{{searchtext}}</em>.  </p>  <p>Ieteikumi:</p> <ul><li>Pārliecinieties, vai visi vārdi ir uzrakstīti pareizi.</li><li>Izmantojiet citus atslēgvārdus.</li><li>Izmantojiet vispārīgākus atslēgvārdus.</li></ul>",
+			"CATEGORIS": {
+				"TITLE": "Kategorijas",
+				"WEB-PROGRGRAMMING": "",
+				"WEB-DESIGN": "",
+				"HTML-CSS": "",
+				"CMS": "",
+				"BASH": "",
+				"PHP-MYSQL": "",
+				"BOOTSRAP": "",
+				"CAT0": "HTML / CSS",
+				"CAT1": "Bash",
+				"CAT2": "CMS",
+				"CAT3": "Адмн. серверов",
+				"CAT4": "BootStrap",
+				"CAT5": "Юмор",
+				"CAT6": "Личное"
+			},
+			"TAGS": {
+				"TITLE": "Tags"
+			},
+			"AUTHORS": {
+				"AUTOR1": {
+					"NAME": "",
+					"DESK": ""
+				}
+			},
+			"EMPTY": "Nav nevienas ziņas. Nenovietojiet.",
+			"USERNAME0": {
+				"AVATAR": "",
+				"USERNAME": "oleg_kosarev"
+			},
+			"TABS": {
+				"TITLE0": "Популярные",
+				"TITLE1": "Свежые"
+			},
+			"ITEMS": {
+				"1": {
+					"TITLE": "Тайтл записи с индефикатором 1"
+				},
+				"2": {
+					"TITLE": "Тайтл записи с индефикатором 2",
+					"TEXT_PREV": " <p>Как быть если XBMC не может найти новых или достаочно старых исполнителей которые не прославились но информацию хочется? Я имею ввиду такие группы как Ночная Трость, F.P.G или как например с группой Mausoleum, цитата с lst.fm</p><blockquote><p>Существуют две группы под названием Mausoleum - отечественная, играющая панк-рок, и иностранная, играющая Funeral Doom Metal.</p></blockquote><p>и другие вить XBMC нормально ищет и собирает только по офф аддону Universal Artist Scraper Который ищет и фан-арт и биаграфию вообщем собирает всю информацию об группе.</p>",
+					"TEXT_HIDDEN": " <p>Как быть если XBMC не может найти новых или достаочно старых исполнителей которые не прославились но информацию хочется? Я имею ввиду такие группы как Ночная Трость, F.P.G или как например с группой Mausoleum, цитата с lst.fm</p><blockquote><p>Существуют две группы под названием Mausoleum - отечественная, играющая панк-рок, и иностранная, играющая Funeral Doom Metal.</p></blockquote><p>и другие вить XBMC нормально ищет и собирает только по офф аддону Universal Artist Scraper Который ищет и фан-арт и биаграфию вообщем собирает всю информацию об группе.</p>"
+				},
+				"TITLE": "Записи"
+			},
+			"HOUR": {
+				"AGO": "Pirms 2 stundām"
+			}
+		},
+		"PORTFOLIO": {
+			"TITLE": "Portfolio",
+			"DESCRIPTION": "Programmētājs nav profesija, bet gan dzīvesveids! Internets ir virtuāla realitāte. Mans dizains ļauj to būt gaišākam, un programmēšanas tehnoloģijas ir modernas un dinamiskas.",
+			"GO_PROJECT": "Skatīt projektu",
+			"OR_SHARE": "vai arī dalīties tajā",
+			"SHARE": "",
+			"DATE_DONE": "Datums",
+			"CLIENT": "Klients",
+			"CATEGORIS": {
+				"ALL": "",
+				"LOGO-DESIGN": "",
+				"WEB-PROGRGRAMMING": "",
+				"SITE-CREATE": ""
+			},
+			"BACK_TO_BLOCK": "Atpakaļ uz portfolio",
+			"ITEMS": {
+				"SSADSGENERATOR_DESK": "",
+				"SSADSGENERATOR_TITLE": "",
+				"LOL_MINER_TITLE": "Spēles servera MineCraft vietne",
+				"LOL_MINER_DESK": "Izņēmums ir tikai darbības laiks un DataLife Engine izpēte. Tādā pašā veidā tika izstrādātas plānotās privilēģijas. <br /> Testa logins un parole test"
+			},
+			"CLIENTS": {
+				"DATAMARKET": "SIA \"DATAMARKET\"",
+				"ZNMETALS": "Zn metālapstrāde , SIA",
+				"LABORATORIJA": "SIA \"Centrālā laboratorija\"",
+				"SAPIENTMAIL": "Sapient",
+				"CONSULTING_PRO": "Consulting Pro, SIA",
+				"ZELTA_RUDENS": "SIA \"Zelta Rudens Printing\"",
+				"FOR_ME": "Attīstība"
+			}
+		},
+		"CONTACT": {
+			"FORM": {
+				"NAME": "",
+				"EMAIL": "",
+				"MESSAGE": "",
+				"SUBMIT": "",
+				"TITLE": "Nosūtīt man e-pastu",
+				"DESK": "PAGES.CONTACT.FORM.DESK LV"
+			},
+			"TITLE": "Sazinieties ar mani",
+			"DESK": "PAGES.CONTACT.DESK LV"
+		}
+	},
+	"ERROR": {
+		"503": {
+			"TITLE": "HTTP Error 503 - Service unavailable",
+			"DESK": "Serveris šobrīd nevar apstrādāt pieprasījumu servera pagaidu pārslodzes vai uzturēšanas dēļ. Tas nozīmē, ka šis ir pagaidu stāvoklis, kas pēc dažām kavēšanās būs mazinātas. Ja ir zināms, aiztures ilgumu var norādīt komandu Retry-After. Ja netiek dota atkārtotā procedūra, klientam JĀBŪT rīkoties ar atbildi, kā tas būtu par 500 atbildi."
+		},
+		"TITLE": "Kļūda"
+	}
+}

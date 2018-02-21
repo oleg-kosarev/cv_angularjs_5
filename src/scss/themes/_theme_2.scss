@@ -1,0 +1,106 @@
+
+/*
+ * #####################################################
+ * ################### THEME 2 START ###################
+ * #####################################################
+ */
+
+ body.theme_2 .color,
+ body.theme_2 .content > div#about .box .title .text,
+ body.theme_2 .content > div#about .box .personal_details .title .icon,
+ body.theme_2 .content > div .box_title .text,
+ body.theme_2 a{
+     color: #C44741;
+ }
+ 
+ body.theme_2 a.btn{
+     color: #ffffff;
+ }
+ 
+ body.theme_2 .main_menu ul li a.home{
+     background: #C44741;
+ }
+ 
+ body.theme_2 .main_menu ul li a.about{
+     background: #FF8F00;
+ }
+ 
+ body.theme_2 .main_menu ul li a.resume{
+     background: #2C343B;
+     color:#dedede;
+ }
+ 
+ body.theme_2 .main_menu ul li a.portfolio{
+     background: #52616D;
+ }
+ 
+ body.theme_2 .main_menu ul li a.resume:hover{
+     color: #ffffff;
+ }
+ 
+ body.theme_2 .main_menu ul li a.blog{
+     background: #E5E1D1;
+ }
+ 
+ body.theme_2 .main_menu ul li a.contact{
+     background: #ffffff;
+ }
+ 
+ body.theme_2 .content > div .title:after{
+     background: #C44741;
+ }
+ 
+ body.theme_2 .content > div#portfolio #portfolio_grid .mix a > div .inner i{
+     background: #B00000;
+ }
+ 
+ body.theme_2 .content > div#about .box .title .icon,
+ body.theme_2 .content > div .box_title .icon,
+ body.theme_2 .content > div#about .box.awards .award .date,
+ body.theme_2 .content > div#portfolio #portfolio_grid .mix a > div .inner i:hover,
+ body.theme_2 .content > div#blog .sidebar .categories .item:hover i,
+ body.theme_2 .content > div#contact .info > div i,
+ body.theme_2 .content > div#resume .skills .section .bar_inner,
+ body.theme_2 .content > div#about .accordion .item .item_title .item_btn,
+ body.theme_2 .btn{
+     background: #C44741;
+ }
+ 
+ body.theme_2 .btn:hover{
+     background: #E60000;
+ }
+ 
+ body.theme_2 .content > div#about .accordion .item .item_title .item_btn{
+     color:#ffffff;
+     opacity: 0.85;
+ }
+ 
+ body.theme_2 .content > div#about .box.my_services .accordion .item .item_title .item_btn:hover,
+ body.theme_2 .content > div#about .box.my_services .accordion .item .item_title .item_btn.active{
+     opacity: 1;
+ }
+ 
+ body.theme_2 .content > div#about .awards .award{
+     border-top:1px solid #C44741;
+ }
+ 
+ body.theme_2 .content > div#blog .sidebar .tabs .tabs_menu a.active{
+     border-top: 2px solid #C44741;
+ }
+ 
+ body.theme_2 .content > div#blog .blog_posts .post{
+     border-top: 4px solid #C44741;
+ }
+ 
+ body.theme_2 input[type="text"]:focus,
+ body.theme_2 input[type="email"]:focus,
+ body.theme_2 textarea:focus{
+     border: 1px solid #C44741;
+ }
+ 
+ 
+ /*
+  * #####################################################
+  * #################### THEME 2 END ####################
+  * #####################################################
+  */

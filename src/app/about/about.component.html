@@ -1,0 +1,191 @@
+<div id="about" class="col-md-12 pt-page-current"
+	style="position: relative; max-height: 552px;" [perfectScrollbar]="">
+	<h1 class="title color col-md-12">
+		<span class="text">{{'PAGES.ABOUT.SUB_HEADER'| translate}}</span>
+	</h1>
+
+	<!-- Left Side -->
+	<div class="col-md-8 alpha left_side">
+		<!-- Who i am -->
+		<div class="box who_i_am">
+			<div class="title">
+				<div class="icon">
+					<i class="fa fa-user"></i>
+				</div>
+				<div class="text">{{"PAGES.ABOUT.WHO_I_AM.TITLE" | translate}}</div>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Description -->
+			<div class="text"
+				[innerHTML]="'PAGES.ABOUT.WHAT_I_DO.TEXT' | translate"></div>
+			<!-- /Description -->
+
+			<!-- Personal Details -->
+			<div class="personal_details">
+				<div class="item title" *ngFor="let item of personal_detalis">
+					<div class="icon col-md-4 col-sm-4 col-xs-12">
+						<i class="fa fa-{{item.ICON}}"></i> <span>{{"PAGES.ABOUT.WHO_I_AM.PERSONAL_DETALIS."
+							+ item.TITLE| translate}}</span>
+					</div>
+					<div class="value col-md-8 col-sm-8 col-xs-12"
+						*ngIf="item.LINK === ''">
+						{{"PAGES.ABOUT.WHO_I_AM.PERSONAL_DETALIS." + item.VALUE|
+						translate}}</div>
+					<div class="value col-md-8 col-sm-8 col-xs-12"
+						*ngIf="item.LINK !== ''">
+						<a href="{{item.LINK}}" target="_{{item.TARGET}}"
+							tooltip="{{'PAGES.ABOUT.WHO_I_AM.PERSONAL_DETALIS.' + item.TITLE_LINK| translate}}">
+							{{"PAGES.ABOUT.WHO_I_AM.PERSONAL_DETALIS." + item.VALUE|
+							translate}} </a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<!-- /Personal Details -->
+
+		</div>
+		<!-- /Who i am -->
+
+		<!-- What i do -->
+		<div class="box what_i_do">
+			<div class="title">
+				<div class="icon">
+					<i class="fa fa-certificate"></i>
+				</div>
+				<div class="text">{{"PAGES.ABOUT.WHAT_I_DO.TITLE"| translate}}</div>
+				<div class="clear"></div>
+			</div>
+			<div class="text"
+				[innerHTML]="'PAGES.ABOUT.WHAT_I_DO.TEXT' | translate"></div>
+		</div>
+		<!-- /What i do -->
+
+		<!-- Tools i use -->
+		<div class="box tools_i_use">
+			<div class="title">
+				<div class="icon">
+					<i class="fa fa-wrench"></i>
+				</div>
+				<div class="text">{{"PAGES.ABOUT.TOOLS_I_USE.TITLE"|
+					translate}}</div>
+				<div class="clear"></div>
+			</div>
+			<div class="tools">
+				<a href="javascript:;" class="tool btn"
+					*ngFor="let item of tools_i_use"> {{"PAGES.ABOUT.TOOLS_I_USE."
+					+ item.name| translate}} </a>
+			</div>
+		</div>
+		<!-- /Tools i use -->
+	</div>
+	<!-- /Left Side -->
+
+	<!-- Right Side -->
+	<div class="col-md-4 omega right_side">
+
+		<!-- About Pictures -->
+		<div class="box pictures">
+			<div class="pictures_inner cycle-slideshow">
+				<img *ngFor="let item of images;" class="mySlides first"
+					src="assets/images/about/{{item.NAME_FILES}}"
+					alt="{{item.TITLE | translate}}" />
+			</div>
+		</div>
+		<!-- /About Pictures -->
+
+		<!-- My Services -->
+		<div class="box my_services">
+			<div class="title">
+				<div class="icon">
+					<i class="fa fa-wrench"></i>
+				</div>
+				<div class="text">{{"PAGES.ABOUT.SERVICES.ACORDION.TITLE" |
+					translate}}</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="accordion">
+				<div class="item" *ngFor="let item of services">
+					<div class="item_title">
+						<div class="item_btn">
+							<span class="text panel-heading">{{"PAGES.ABOUT.SERVICES.ACORDION."
+								+ item.title | translate}}</span> <span class="arrow"> <i
+								class="fa fa-plus-circle"></i>
+							</span>
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<div class="item_text">{{"PAGES.ABOUT.SERVICES.ACORDION." +
+						item.text | translate}}</div>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+		</div>
+		<!-- /My Services -->
+
+		<!-- Testimonials -->
+		<div class="box testimonials">
+			<div class="title">
+				<div class="icon">
+					<i class="fa fa-users"></i>
+				</div>
+				<div class="text">{{"PAGES.ABOUT.TESTIMONIALS.TITLE" |
+					translate}}</div>
+				<div class="clear"></div>
+			</div>
+			<!-- <div class="testimonials_btns">
+        <div class="fa fa-caret-left left_btn"></div>
+        <div class="fa fa-caret-right right_btn"></div>
+        <div class="clear"></div>
+      </div> -->
+			<div class="testimonials">
+
+				<div class="testimonial" *ngFor="let item of testimonials">
+					<div class="text">{{ "PAGES.ABOUT.TESTIMONIALS." + item.text
+						| translate}}</div>
+					<div class="client">&mdash; {{ "PAGES.ABOUT.TESTIMONIALS." +
+						item.client | translate}}</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- /Testimonials -->
+
+	</div>
+	<!-- /Right Side -->
+
+	<div class="clear"></div>
+
+	<!-- Awards -->
+	<div class="box awards">
+		<div class="title">
+			<div class="icon">
+				<i class="fa fa-trophy"></i>
+			</div>
+			<div class="text">{{"PAGES.ABOUT.MY_AWARDS.TITLE" | translate}}</div>
+			<div class="clear"></div>
+		</div>
+		<div class="awards">
+			<div class="award" *ngFor="let AWARD of my_awards">
+				<div class="date">{{"PAGES.ABOUT.MY_AWARDS." + AWARD.date|
+					translate}}</div>
+				<div class="body">
+					<div class="award_title"
+						[innerHTML]="'PAGES.ABOUT.MY_AWARDS.' + AWARD.title| translate"></div>
+					<span
+						[innerHTML]="'PAGES.ABOUT.MY_AWARDS.' + AWARD.body| translate"></span>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- /Awards -->
+
+	<div class="clear"></div>
+</div>

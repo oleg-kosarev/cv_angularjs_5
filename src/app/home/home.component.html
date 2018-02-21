@@ -1,0 +1,32 @@
+<div id="home" class="col-md-12">
+
+  <!-- Slider -->
+  <div class="main_slider cycle-slideshow">
+    <div class="overlay">
+      <div class="name">
+        {{ 'GENERAL.NAME' | translate }} {{ 'GENERAL.SURNAME' | translate }}
+      </div>
+      <div class="description">
+
+        <!-- Description Rotator -->
+        <div class="rotate">
+          <div class="item" *ngFor="let text of textsRotation;">{{"PAGES.HOME.SLIDER." + text.name | translate}}</div>
+        </div>
+        <!-- /Description Rotator -->
+        <br />
+        {{ 'PAGES.HOME.SLIDER.REALIZATION' | translate }}
+      </div>
+    </div>
+    <img class="mySlides" *ngFor="let text of textsRotation;" src="assets/images/home/{{text.image}}" alt='{{"PAGES.HOME.SLIDER." + text.name | translate}}'>
+  </div>
+  <!-- /Slider -->
+
+  <a href="javascript:;" [routerLink]="['/resume']" class="resume_btn goto_resume_btn col-md-6">
+      <i class="fa fa-list"></i>
+      {{ 'PAGES.HOME.BTN.LOOK_RESUME' | translate }}
+    </a>
+  <a href="javascript:;" style="cursor: default" class="disabled cv_download_btn col-md-6">
+    <i class="fa fa-download"></i>
+    {{ 'PAGES.HOME.BTN.DOWNLOAD_RESUME' | translate }}
+  </a>
+</div>

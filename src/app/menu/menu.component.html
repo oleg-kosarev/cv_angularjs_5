@@ -1,0 +1,15 @@
+<!-- Main Menu -->
+<div class="main_menu col-md-1">
+  <div class="row">
+    <ul>
+      <li *ngFor="let item of menuItems">
+        <a href="javascript:;"  [routerLinkActive]="['active']" [routerLink]="[item.url]" [class]="item.class" data-id="1">
+          <fa [name]="item.icon"></fa>
+        </a>
+      </li>
+      
+    </ul>
+  <app-language></app-language>
+  </div>
+</div>
+<!-- /Main Menu -->

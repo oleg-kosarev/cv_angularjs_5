@@ -1,0 +1,59 @@
+
+<!-- Wrapper -->
+<div id="wrapper">
+	<div class="container">
+		<!-- Row -->
+		<div class="row">
+			<!-- Social Icons(Used for mobile) -->
+			<div class="social_icons mobile">
+				<ul>
+					<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li><a href="#" class="google-plus"><i
+							class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" class="linkedin"><i
+							class="fa fa-linkedin-square"></i></a></li>
+					<li><a href="#" class="github"><i class="fa fa-github"></i></a>
+					</li>
+					<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+					</li>
+				</ul>
+			</div>
+			<!-- /Social -->
+			<!-- Main Menu -->
+			<app-menu></app-menu>
+			<!-- /Main Menu -->
+			<!-- Main Content -->
+			<div class="main_content col-md-10">
+				<div class="content col-md-12">
+				<router-outlet></router-outlet>
+				<app-footer></app-footer>				
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!-- /Main Content -->
+
+			<!-- Social Buttons -->
+			<app-social-icons></app-social-icons>
+			<!-- /Social Buttons -->
+
+			<div class="clear"></div>
+
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="clear"></div>
+</div>
+<!-- /Wrapper -->
+
+<!-- Loading Overlay -->
+<div class="loading_overlay">
+	<div>
+		<img class="loading" src="assets/images/loading.gif" alt="img" />
+	</div>
+</div>
+<!-- /Loading Overlay -->

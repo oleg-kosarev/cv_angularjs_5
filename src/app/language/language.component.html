@@ -1,0 +1,5 @@
+<div class="languages">
+<a *ngFor='let language of languages'
+	(click)="useLanguage(language.code)" title="{{language.name}}"
+	class="flag-icon flag-icon-{{language.code}}"></a>
+</div>

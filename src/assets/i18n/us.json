@@ -1,0 +1,293 @@
+{
+	"GENERAL": {
+		"NAME": "Oleg",
+		"SURNAME": "Kosarev",
+		"FOOTER": {
+			"COPYRIGHT": "All rights reserved.",
+			"ANGULARJS_VERSION": "Version AngularJS",
+			"APP_VERSION": "Product Version",
+			"BASED": "based on"
+		}
+	},
+	"PAGES": {
+		"HOME": {
+			"BTN": {
+				"LOOK_RESUME": "Check out my Resume",
+				"DOWNLOAD_RESUME": "Download my CV"
+			},
+			"SLIDER": {
+				"REALIZATION": "Your idea is my realization",
+				"TEXT0": "Adaptation of designs for various CMS",
+				"TEXT1": "Development of applications on AngularJS together with Node.js",
+				"TEXT2": "Senior PHP MySQL programmer at w-services.eu",
+				"TEXT3": "HTML5 \\ CSS3 Site Layout"
+			}
+		},
+		"ABOUT": {
+			"TITLE": "More about me",
+			"SUB_HEADER": "About me",
+			"DESCRIPTION": "My name is <strong> Oleg Kosarev </ strong> and I <strong> Programmer and system administrator </ strong> I am in <strong> Riga, Latvia </ strong>.",
+			"KEYWORDS": "",
+			"WHO_I_AM": {
+				"TITLE": "WHO AM I",
+				"PERSONAL_DETALIS": {
+					"TITLE_USER": "Name",
+					"VALUE_USER": "Oleg Anatolyevich Kosarev",
+					"TITLE_CALENDAR": "Was born",
+					"VALUE_CALENDAR": "April 4, 1987",
+					"TITLE_MAP": "Address",
+					"VALUE_MAP": "Latvia, Riga",
+					"TITLE_MOBILE": "Phone",
+					"VALUE_MOBILE": "+371-259-426-93",
+					"DESC_MOBILE": "Call me",
+					"TITLE_ENVELOPE": "Email",
+					"VALUE_ENVELOPE": "oleg_kosarev@w-services.eu",
+					"DESC_ENVELOPE": "Write me",
+					"TITLE_LINK": "Web site",
+					"VALUE_LINK": "w-services.eu",
+					"DESC_LINK": "w-services.eu"
+				}
+			},
+			"WHAT_I_DO": {
+				"TITLE": "WHAT I DO",
+				"TEXT": "Discipline, communicative, purposeful, high learning ability, no bad habits. A great desire to develop in the field of programming (programming for mobile platforms)."
+			},
+			"SERVICES": {
+				"ACORDION": {
+					"TITLE": "MY SERVICES",
+					"TITLE0": "Website layout",
+					"TEXT0": "Nesting, this is when you need from a finished image (most often it's a Photoshop format PSD) you need to make a website. In most cases, you need not just open the hrml page, but also pull (adapt) to some popular CMS",
+					"TITLE1": "Web Development",
+					"TEXT1": "I make fast and functional websites. I will never be stopped by difficulties and innovative solutions. For me, there is no word \"impossible\" or \"difficult.\"",
+					"TITLE2": "Admin. servers",
+					"TEXT2": "TEXT3 IN LANG FILES"
+				}
+			},
+			"TOOLS_I_USE": {
+				"TITLE": "TOOLS I USE",
+				"TTITLE0": "Photoshop",
+				"TTITLE1": "jQuery",
+				"TTITLE2": "Joomla",
+				"TTITLE3": "AngularJS",
+				"TTITLE4": "Node.js",
+				"TTITLE5": "PHP",
+				"TTITLE6": "MySQL"
+			},
+			"MY_AWARDS": {
+				"TITLE": "MY AWARDS",
+				"DATE0": "2011",
+				"TITLE0": "1st Award &bull;  \"The Most System Administrator-2011\" Competition",
+				"BODY0": "The contest is held by the company \"Aideko\" in cooperation with the magazine \"System administrator\", the Linux Format magazine, the quotation bash.org.ru, the portal Linux.Org.Ru, the SkyDNS service and the Pinguem.ru site. In our contest, participants will have to show not only professional skills and knowledge, but also ingenuity, ingenuity and the ability to solve logical problems.",
+				"DATE1": "2010",
+				"TITLE1": "2st Award &bull;  \"The Most System Administrator-2010\" Competition",
+				"BODY1": "The company \"Aideko\", the developer of software for system administrators in conjunction with the magazine Hacker, citetnik Runet bash.org.ru, the digital portal iXBT and the community Habrahabr conduct the All-Russian competition for the title of System Administrator 2010. We tried very hard to make all issues as versatile and interesting , not only expanding the horizon, but useful from a practical point of view.",
+				"DATE2": "2009",
+				"TITLE2": "3st Award &bull;  \"The Most System Administrator-2009\" Competition",
+				"BODY2": "The certificate in electronic form is absent. Russian sysadmin - what is it?"
+			},
+			"TESTIMONIALS": {
+				"TITLE": "TESTIMONIALS",
+				"TEXT0": "During his work, he proved himself not only as a disciplined and accurate worker, but also as an initiative and capable of taking responsibility for making decisions on complex issues that are within his competence.",
+				"CLIENT0": "OOO \"ESIU\"",
+				"TEXT1": "Hard-working, has high working capacity, supports the work of the company in every possible way in difficult moments, including after-hours.",
+				"CLIENT1": "SIA \"web-academy\"",
+				"TEXT2": "Constantly monitors the current changes in the regulatory framework, and also aims to improve their professional qualifications.",
+				"CLIENT2": "SIA \"SSE\""
+			}
+		},
+		"RESUME": {
+			"TITLE": "Resume",
+			"DOWNLOAD_MY_CV": "Скачать моё резюме",
+			"EDUCATION": {
+				"TITLE": "EDUCATION",
+				"TITLE0": "Riga 96 Secondary School (9 classes)",
+				"DATE_TEXT0": "1996-2006",
+				"NAME0": "Средная школа",
+				"TEXT0": "He graduated from high school.",
+				"TITLE1": "SIA \"Profsistems\"",
+				"DATE_TEXT1": "2007-2008",
+				"NAME1": "Repair of computers",
+				"TEXT1": "The general svedinja on repair of modernization of a computer and also on installation and adjustment of Windows were considered. Graduated with a certificate.",
+				"TITLE2": "\"INTUIT\"",
+				"DATE_TEXT2": "2001-2010",
+				"NAME2": "Установка веб-приложений на Win. Server 2008",
+				"TEXT2": "Internet-University of Information Technologies (www.INTUIT.ru) <br> <br> Installing and configuring the Internet Information Services 7.0 Web server and the components of the web platform (ASP.NET, PHP, SQL Server, MySQL)."
+			},
+			"EMPLOYMENT": {
+				"TITLE": "EMPLOYMENT",
+				"TITLE0": "Sysadmin., Vecākais PHP MySQL programmētājs",
+				"DATE_TEXT0": "2012 - по настоящее время",
+				"NAME0": "SIA \"web-academy\"",
+				"TEXT0": "Creation and administration of the site., Programmer, System administrator",
+				"TITLE1": "Web-admin., Web-developer",
+				"DATE_TEXT1": "2013 - 2014",
+				"NAME1": "OOO \"ESIU\"",
+				"TEXT1": "Creation and administration of the site. Adaptation of designs for various CMS.",
+				"TITLE2": "Web-admin., Web-developer",
+				"DATE_TEXT2": "2012 - 2013",
+				"NAME2": "SIA \"Prior\"",
+				"TEXT2": "Creation and administration of the site. Adaptation of CMS Made Simple designs.",
+				"TITLE3": "Sysadmin., Web-admin., Web-developer",
+				"DATE_TEXT3": "2009 - 2012",
+				"NAME3": "NRJ Reklama",
+				"TEXT3": "<p> Repairing the modernization of computers in the office </ p> <p> Creating and administering the site. </ p> <p> Installing and servicing servers based on </ p> <ol> <li> Windows XP (Windows 2003) ) </ li> <li> Linux (ubuntu server edition) </ li> <li> FreeBSD </ li> </ ol>",
+				"TITLE4": "Computer technician",
+				"DATE_TEXT4": "2007 - 2008",
+				"NAME4": "Balt-Intek",
+				"TEXT4": "<p> Repair of computers in the office and their full service. </ p> <p> Repair of printers, faxes, copiers. </ p> <p> Cartridge refilling. </ p>",
+				"TITLE5": "Computer technician",
+				"DATE_TEXT5": "2006 - 2007",
+				"NAME5": "SIA Livas",
+				"TEXT5": "<p> Repairing the modernization of computers in the office </ p> <p> Leaving for the client and repairing the modernization of computers on site. </ p> <p> Creating and administering the site. </ p>",
+				"TITLE01": "Тех. директор, Программист",
+				"DATE_TEXT01": "2016.12 - 2017.07",
+				"NAME01": "SIA \"DATAMARKET\"",
+				"TEXT01": "Создание и администрирование сайта., Создание аналога программы remonline.ru. Программа была создана на основе angularJS."
+			},
+			"SKILLS": {
+				"TITLE": "SKILLS",
+				"GraphicDesign": {
+					"TITLE": "Work with graphics",
+					"NAME0": "Photoshop",
+					"NAME1": "Illustrator",
+					"NAME2": "Corel Draw"
+				},
+				"Programming": {
+					"TITLE": "Programming",
+					"NAME0": "HTML & CSS",
+					"NAME1": "PHP",
+					"NAME2": "Javascript",
+					"NAME3": "jQuery",
+					"NAME4": "Bash",
+					"NAME5": "C#"
+				},
+				"CMS_FRAMEWORK": {
+					"TITLE": "CMS and frameworks",
+					"NAME0": "Joomla",
+					"NAME1": "AngularJS",
+					"NAME2": "Node.js",
+					"NAME3": "Bootstrap",
+					"NAME4": "DLE",
+					"NAME5": "Bitrix",
+					"NAME6": "CMS Made Simple"
+				},
+				"SITE_LAYOUT": {
+					"TITLE": "Site layout",
+					"NAME0": "Div site layout",
+					"NAME1": "Table layout"
+				}
+			}
+		},
+		"BLOG": {
+			"TITLE": "Blog",
+			"BACK_TO_BLOCK": "Back to blog",
+			"READ_MORE": "Read More...",
+			"LOAD_MORE": "Load more records",
+			"ABOUT_AUTHOR_TITLE": "Об авторе",
+			"ABOUT_AUTHOR_DESK": "О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе: О себе:",
+			"ABOUT_BLOG_TITLE": "About blog",
+			"ABOUT_BLOG_DESK": "In the blog I write only personal experience. In the blog you will not see rewriting of the articles of famous SEO bloggers, or articles that scored a bunch of views. Only my work and the difficulties and experience that I get. So to say, the life of the programmer as it is.",
+			"SEARCH": "Search",
+			"NOT_FOUND_ITEMS": "<p>По запросу - <br /> <em>{{searchtext}}</em> ничего не найдено.&nbsp;</p><p>Рекомендации:</p><ul><li>Убедитесь, что все слова написаны без ошибок.</li><li>Попробуйте использовать другие ключевые слова.</li><li>Попробуйте использовать более популярные ключевые слова.</li></ul>",
+			"CATEGORIS": {
+				"TITLE": "Categories",
+				"WEB-PROGRGRAMMING": "Веб-программирование ",
+				"WEB-DESIGN": "Веб-дизайн",
+				"HTML-CSS": "HTML CSS",
+				"CMS": "Система управления содержимым",
+				"BASH": "«Возрождённый» shell",
+				"PHP-MYSQL": "Php \\ mysql",
+				"BOOTSRAP": "Bootsrap",
+				"CAT0": "",
+				"CAT1": "",
+				"CAT2": "",
+				"CAT3": "",
+				"CAT4": "",
+				"CAT5": "",
+				"CAT6": ""
+			},
+			"TAGS": {
+				"TITLE": "Tags"
+			},
+			"AUTHORS": {
+				"AUTOR1": {
+					"NAME": "",
+					"DESK": ""
+				}
+			},
+			"EMPTY": "No posts found. Load nothing.",
+			"USERNAME0": {
+				"AVATAR": "",
+				"USERNAME": ""
+			},
+			"TABS": {
+				"TITLE0": "",
+				"TITLE1": ""
+			},
+			"ITEMS": {
+				"1": {
+					"TITLE": ""
+				},
+				"2": {
+					"TITLE": "",
+					"TEXT_PREV": "",
+					"TEXT_HIDDEN": ""
+				},
+				"TITLE": ""
+			},
+			"HOUR": {
+				"AGO": "2 hours ago"
+			}
+		},
+		"PORTFOLIO": {
+			"TITLE": "Portfolio",
+			"DESCRIPTION": "A programmer is not a profession, but a lifestyle! The Internet is a virtual reality. My design allows it to be brighter, and the programming technology is modern and dynamic.",
+			"GO_PROJECT": "Go to project",
+			"OR_SHARE": "or share it",
+			"SHARE": "Поделиться проектом",
+			"DATE_DONE": "Date",
+			"CLIENT": "Client",
+			"CATEGORIS": {
+				"ALL": "Все",
+				"LOGO-DESIGN": "Лого дизайн",
+				"WEB-PROGRGRAMMING": "Веб-программирование",
+				"SITE-CREATE": "Создание сайта"
+			},
+			"BACK_TO_BLOCK": "Back to portfolio",
+			"ITEMS": {
+				"SSADSGENERATOR_DESK": "* ssADSGenerator: The class generates an xml file for <a href=\"http://ss.com\" target=\"_blank\">ss.com</a>. <br> * Returns ready to feed xml <a href=\"http://ss.com\" target=\"_blank\">ss.com</a>. <br> * This class postroin on the principle that every function each category. <br> * If not present the type of the ads triggered an exception.",
+				"SSADSGENERATOR_TITLE": "",
+				"LOL_MINER_TITLE": "The site for the game server MineCraft",
+				"LOL_MINER_DESK": "Exceptionally only the operating time and to explore the DataLife Engine. In the same way developed planed privileges were developed. <br /> Test login and password test"
+			},
+			"CLIENTS": {
+				"DATAMARKET": "SIA \"DATAMARKET\"",
+				"ZNMETALS": "Zn metālapstrāde , SIA",
+				"LABORATORIJA": "SIA \"Centrālā laboratorija\"",
+				"SAPIENTMAIL": "Sapient",
+				"CONSULTING_PRO": "Consulting Pro, SIA",
+				"ZELTA_RUDENS": "SIA \"Zelta Rudens Printing\"",
+				"FOR_ME": "Developments "
+			}
+		},
+		"CONTACT": {
+			"FORM": {
+				"NAME": "Your Name",
+				"EMAIL": "Your Email",
+				"MESSAGE": "Your Message",
+				"SUBMIT": "Send Message",
+				"TITLE": "Email Me",
+				"DESK": "PAGES.CONTACT.FORM.DESK EN"
+			},
+			"TITLE": "Contact",
+			"DESK": "PAGES.CONTACT.DESK EN"
+		}
+	},
+	"ERROR": {
+		"503": {
+			"TITLE": "HTTP Error 503 - Service unavailable",
+			"DESK": "The server is currently unable to handle the request due to a temporary overloading or maintenance of the server. The implication is that this is a temporary condition which will be alleviated after some delay. If known, the length of the delay MAY be indicated in a Retry-After header. If no Retry-After is given, the client SHOULD handle the response as it would for a 500 response."
+		},
+		"TITLE": "Error"
+	}
+}

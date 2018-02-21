@@ -1,0 +1,101 @@
+/*
+ * #####################################################
+ * ################### THEME 5 START ###################
+ * #####################################################
+ */
+
+ body.theme_5 .color,
+ body.theme_5 .content > div#about .box .title .text,
+ body.theme_5 .content > div#about .box .personal_details .title .icon,
+ body.theme_5 .content > div .box_title .text,
+ body.theme_5 a{
+     color: #790C46;
+ }
+ 
+ body.theme_5 a.btn{
+     color: #ffffff;
+ }
+ 
+ body.theme_5 .main_menu ul li a.home{
+     background: #790C46;
+ }
+ 
+ body.theme_5 .main_menu ul li a.home{
+     color: #222222;
+ }
+ 
+ body.theme_5 .main_menu ul li a.about{
+     background: #E4015B;
+ }
+ 
+ body.theme_5 .main_menu ul li a.resume{
+     background: #FE7181;
+ }
+ 
+ body.theme_5 .main_menu ul li a.portfolio{
+     background: #E7D37D;
+ }
+ 
+ body.theme_5 .main_menu ul li a.blog{
+     background: #F5F6A9;
+ }
+ 
+ body.theme_5 .main_menu ul li a.contact{
+     background: #F7CD3D;
+ }
+ 
+ body.theme_5 .content > div .title:after{
+     background: #790C46;
+ }
+ 
+ body.theme_5 .content > div#about .box .title .icon,
+ body.theme_5 .content > div .box_title .icon,
+ body.theme_5 .content > div#about .box.awards .award .date,
+ body.theme_5 .content > div#portfolio #portfolio_grid .mix a > div .inner i:hover,
+ body.theme_5 .content > div#blog .sidebar .categories .item:hover i,
+ body.theme_5 .content > div#contact .info > div i,
+ body.theme_5 .content > div#resume .skills .section .bar_inner,
+ body.theme_5 .content > div#about .box.my_services .accordion .item .item_title .item_btn,
+ body.theme_5 .content > div#portfolio #portfolio_grid .mix a > div .inner i,
+ body.theme_5 .btn{
+     background: #790C46;
+ }
+ 
+ body.theme_5 .btn:hover{
+     background: #D11579;
+ }
+ 
+ body.theme_5 .content > div#about .box.my_services .accordion .item .item_title .item_btn{
+     opacity: 0.8;
+     color: #ffffff;
+ }
+ 
+ body.theme_5 .content > div#about .box.my_services .accordion .item .item_title .item_btn:hover,
+ body.theme_5 .content > div#about .box.my_services .accordion .item .item_title .item_btn.active{
+     opacity: 1;
+ }
+ 
+ body.theme_5 .content > div#about .awards .award{
+     border-top:1px solid #790C46;
+ }
+ 
+ body.theme_5 .content > div#blog .sidebar .tabs .tabs_menu a.active{
+     border-top: 2px solid #790C46;
+ }
+ 
+ body.theme_5 input[type="text"]:focus,
+ body.theme_5 input[type="email"]:focus,
+ body.theme_5 textarea:focus{
+     border: 1px solid #790C46;
+ }
+ 
+ body.theme_5 .accordion .item .item_title .item_btn .arrow i{
+     color: #dedede;
+ }
+ 
+ /*
+  * #####################################################
+  * #################### THEME 5 END ####################
+  * #####################################################
+  */
+ 
